@@ -21,4 +21,12 @@ public class LogginedUserService {
 		return new MyCabinetService(logginedUserEntity);
 	}
 	
+	public TagsService gotoTagsService() {
+		return new TagsService(logginedUserEntity);
+	}
+	
+	public NewsService gotoNewsService() {
+		return new NewsService(logginedUserEntity);
+	}
+	
 }

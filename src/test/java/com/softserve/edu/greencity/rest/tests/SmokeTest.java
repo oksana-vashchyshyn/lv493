@@ -40,7 +40,7 @@ public class SmokeTest extends GreencityRestTestRunner {
 		System.out.println("logginedUserEntity = "
 				+ myCabinetService.getLogginedUserEntity());
 		List<UserGoal> userGoals = myCabinetService.userGoals();
-		System.out.println("userGoals = "+ userGoals);
+		System.out.println("***userGoals = "+ userGoals);
 //		Assert.assertEquals(logginedUserService.getLogginedUserEntity().getName(),
 //				user.getName());
 	}

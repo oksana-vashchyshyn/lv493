@@ -10,7 +10,8 @@ public enum KeyParameters {
     LANG("lang"),
     USER_ID("userId"),
     NAME("name"),
-    BEARER("Bearer ");
+    BEARER("Bearer "),
+	TAGS("tags");
 
     private String key;
 
